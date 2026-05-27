@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --brand-bg: #556d2f;
+  --brand-bg-soft: #6f8a3d;
+  --brand-surface: #f4f8df;
+  --brand-surface-alt: #edf4cf;
+  --brand-accent: #d4ec58;
+  --brand-accent-strong: #b9d63f;
+  --brand-text-dark: #1b2a1c;
+  --brand-text-muted: #5d6f5f;
+  --brand-border: #d1d8c4;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif;
+}
+
+body {
+  background: var(--brand-bg);
+  color: var(--brand-text-dark);
+}
