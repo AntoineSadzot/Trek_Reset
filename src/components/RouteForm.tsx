@@ -28,7 +28,7 @@ const PACKS: { id: Pack; name: string; km: number; icon: string; desc: string }[
   },
 ];
 
-const NIGHTS_OPTIONS = [1, 2, 3, 4];
+const NIGHTS_OPTIONS = [1, 2, 3];
 
 interface Props {
   onGenerate: (nights: number, distancePerDay: number, pack: Pack, options: Options) => void;
